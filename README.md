@@ -23,4 +23,7 @@
 
   scrapy crawl -o ./output/info.csv books --loglevel DEBUG
   scrapy crawl -o ./output/output.json books
+
+  scrapy crawl -o ./output/book-details.csv book-details
+  scrapy crawl -o ./output/book-details.json books-details
   ```
